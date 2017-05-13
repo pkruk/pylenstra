@@ -1,6 +1,6 @@
 # Pylenstra
 
-Implementation of Lenstra elliptic curve factorization method.
+Implementation of Lenstra elliptic curve factorization method [link](https://en.wikipedia.org/wiki/Lenstra_elliptic_curve_factorization) [pub](http://wstein.org/edu/124/lenstra/lenstra.pdf).
 This is a small part of my master thesis, which i would like to share.
 Maybe someone will find this implementation useful to gain some knowledge about Elliptic Curves.
 
