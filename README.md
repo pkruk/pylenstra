@@ -21,7 +21,7 @@ pip install gmpy2 mpi4py
 
 ## Example of usage:
 
-To run the app, please execute ``main.py``, with using this options:
+To run the app, please execute ``src/main.py``, with using this options:
 
 * -h --help - print help 
 * -n --number - Number we want to factor (attack ;) )
@@ -29,7 +29,7 @@ To run the app, please execute ``main.py``, with using this options:
 Examples:
 
 ```
-➜  pylenstra python main.py -n 829348951
+➜  src: python src/main.py -n 829348951
 Number  829348951  was factored with time  0.001033782958984375  ms, and the factor is a: 7919
 We find a solution, so kill all MPI processes
 --------------------------------------------------------------------------
@@ -45,7 +45,7 @@ exactly when Open MPI kills them.
 With using Open MPI: 
 
 ```
-➜  pylenstra mpirun -np 4 python main.py -n 829348951
+➜  src: mpirun -np 4 python src/main.py -n 829348951
 Number  829348951  was factored with time  0.011167049407958984  ms, and the factor is a: 7919
 We find a solution, so kill all MPI processes
 --------------------------------------------------------------------------
