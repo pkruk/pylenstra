@@ -20,7 +20,7 @@ pip install gmpy2 mpi4py
 
 Installation on **Debian-based (tested on Ubuntu 18.04 LTS)**:
 ```
-sudo apt install mpc libmpc-dev
+sudo apt install openmpi-bin mpc libmpc-dev
 pip3 install gmpy2 mpi4py
 ```
 
