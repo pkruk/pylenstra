@@ -11,13 +11,18 @@ You will need this packages and libraries:
  * [mpi4py](http://mpi4py.readthedocs.io/en/stable/)
  * [gmpy2](https://gmpy2.readthedocs.io/en/latest/index.html)
  
-Installation on Linux:
+Installation on **ArchLinux**:
 ```
 pacman -S openmpi #(archlinux)
 
 pip install gmpy2 mpi4py
 ```
 
+Installation on **Debian-based (tested on Ubuntu 18.04 LTS)**:
+```
+sudo apt install openmpi-bin mpc libmpc-dev
+pip3 install gmpy2 mpi4py
+```
 
 ## Example of usage:
 
