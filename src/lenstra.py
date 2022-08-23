@@ -88,7 +88,7 @@ class Lenstra(object):
         e = e[::-1]  # reverse it
         Q = p
         R = Ideal() if e[0] == '0' else p
-        for i in e:
+        for i in e[1:]:
             Q = self.partial_addition(Q, Q)
             if self.is_not_point(Q):
                 return Q
